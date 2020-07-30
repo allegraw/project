@@ -10,5 +10,33 @@ li {
   font-weight: bold;
 }
 
+/* Learn about the HTML nav tag
+https://www.w3schools.com/tags/tag_nav.asp */
+nav ul li {
+  /*   Learn about CSS display
+  https://www.w3schools.com/css/css_display_visibility.asp */
+  display: inline;
+}
 
-  }
+/* Learn more about the class Attribute
+https://www.w3schools.com/html/html_classes.asp
+ */
+/* class="astrology" */
+.astrology {
+  /* Learn more about CSS Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items).
+ */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.astrology div {
+  flex-basis: 30%;
+}
+
+/* Learn more the HTML footer tag
+https://www.w3schools.com/tags/tag_footer.asp */
+footer {
+  text-align: center;
+}
